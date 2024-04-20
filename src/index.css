@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  font-size: 18px !important;
+}
+.home.tables {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px !important;
+  padding: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 50px !important;
+}
+
+thead {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+th {
+  font-weight: bold !important;
+}
+
+table {
+  margin-top: 20px !important;
+}
+
+input,
+textarea {
+  border-color: #001529 !important;
+}
+
+.ant-radio {
+  border: 1px solid #001529 !important;
+  border-radius: 50% !important;
+}
+.ant-select,
+.ant-picker {
+  border: 1px solid #001529 !important;
+}
+.form,
+.todo {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px !important;
+  padding: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 50px !important;
+}
+
+.flex {
+  display: flex;
+  align-items: center !important;
+}
+
+.bs {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
